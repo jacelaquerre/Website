@@ -1,0 +1,403 @@
+p {
+    font-family: "verdana", verdana, sans-serif;
+    text-indent: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 70px; 
+}
+
+img{
+    max-width: 100%;
+}
+.roundedCornersSmall{
+    border-radius: 0.4em;
+}
+
+.pictures {
+    background-color: #CD866A;
+    padding: 10px;
+}
+
+.fiftyPercent{
+    width: 50%;
+    text-align: center;
+    padding: 1em;
+}
+
+#pictures figure{
+    border: thin solid darkslategray;
+    border-radius: 0.4em;
+    padding: 1.5em;
+    height: 50%;
+    width: 50%;
+    margin: auto;
+}
+
+.news {
+    border: thin solid darkslategray;
+    border-radius: 0.4em;
+    padding: 0.5em;
+    height: 50%;
+    width: 50%;
+    margin: auto;
+}
+
+figcaption {
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+
+/* ///////////////// NAV ////////////////////////////////////////////////////*/
+#nav ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 3.5em;
+    overflow: hidden;
+    background-color: #9B5032;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-left: 1em;
+}
+
+#nav li a:hover:not(.active) {
+    background-color: #EFA486;
+}
+
+#nav .active {
+    background-color: #EFA486;
+}
+/* ///////////////////////////// END NAV /////////////////////////////////// */
+
+body{
+    font: 14pt Arial,Helvetica,sans-serif;
+    background-color: #F4BAA3;
+    width: 100%;
+}
+
+footer{
+    clear: both;
+}
+/*////////////////////// FORM ////////////////////////////////////////////////*/
+#form{
+    font: bold Arial,Helvetica,sans-serif;
+    width: 100%;
+}
+
+fieldset{
+    background-color: #CD866A;
+    border: 2px solid #9B5032;
+    clear: both;
+    margin-top: 2em;
+    padding: 1em;
+    max-width: 50%; 
+    text-align: left;
+}
+
+.left {
+    text-align: left;
+    margin-left: -85px;
+    margin-right: 70px;
+}
+
+.dropdown {
+    text-align: left;
+    margin-left: 35px;
+    margin-right: 70px;
+    
+}
+
+.comments_p {
+    text-align: center;
+}
+
+.text-field {
+    margin-left: -90px; 
+}
+
+#txtFirstName {
+    margin-left: -10px;
+}
+
+#txtlastName {
+    margin-left: -10px; 
+}
+
+#txtEmail {
+    margin-left: -10px;
+}
+
+label{
+    color: #005cb3;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+form-heading{
+    border-bottom: 2px solid #ddd;
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 1.75em;
+    padding-bottom: 0.4em;
+}
+
+#form input{
+    box-sizing: border-box;
+    border: 2px solid #C2C2C2;
+    box-shadow: 2px 2px 4px #9B5032;
+    border-radius: 3px;
+    padding: 1em;
+    outline: none;
+}
+
+#form input:focus{
+    border: 1px solid #0C0;
+}
+
+.listbox {
+    text-align: center;
+}
+
+#form input[type=submit]{
+   background: #005cb3 none repeat scroll 0 0;
+   border: medium none;
+   border-radius: 3px;
+   box-shadow: 1px 1px 4px #9B5032;
+   color: #fff;
+   margin: 1em;
+   padding: 0.8em 1.4em;
+}
+
+.buttons {
+    text-align: center;
+}
+
+#regionLived {
+    width: 13em;
+    height: 3em;
+    text-align: center;
+}
+
+.mistake {
+    color: #fff;
+    background-color: #E2372A;
+    border: thin solid #000;
+}
+.contact {
+    font: bold 1em Arial,Helvetica,sans-serif;  
+}
+
+.names fieldset{
+    text-align: left;
+}
+
+#errors ol li {
+    color: #E2372A;
+    margin-left: 3.3em;
+}
+
+.check-field{
+    margin: 0 0 1.25em 7.5em;
+}
+
+.radio-field{
+    margin: 0 0 1.25em 7.5em;
+}
+
+ .text-field{
+    display: block;
+    float: left;
+    margin: 0 0 1.2em;
+    padding-right: 0.5em;
+    padding-top: 0.75em;
+    text-align: right;
+    width: 7em;
+} 
+
+.description {
+    margin-right: 2em;
+}
+
+.email_description {
+    margin-right: 4.8em;
+}
+
+
+.comments {
+    display: block;
+    float: left;
+    margin: 0 0 1.2em;
+    padding-right: 0.5em;
+    padding-top: 0.75em;
+    text-align: left;
+    width: 30em;
+    height: 15em;
+    }
+.legend {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.textarea {
+    text-align: center;
+}
+
+/*///////////////////// END FORM /////////////////////////////////////////////*/
+
+#main fieldset{
+    height: 50%;
+    width: 90%;
+    margin: auto;
+}
+
+
+/*//////////////////////////////////// JQuery Slider /////////////////////////*/
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Citaton text */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: relative;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*/////////////////////////////// END JQuery Slider //////////////////////////*/
+
+.title{
+    text-align: center;
+    font-family: "garamond", garamond, sans-serif;
+    font-size: 65pt;
+    padding: 15px;
+    margin: 0px;
+}
+
+#content fieldset {
+    text-align: center;
+    height: 50%;
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    margin-left: 2.7em;
+}
+
+h2 {
+    margin-left: 2.7em;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+#main nav {
+    width: 100%;
+}
+
+.footer {
+    background-color: #CD866A;
+    margin-top: 5em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.donate {
+    margin-top: 3em;
+}
